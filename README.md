@@ -43,4 +43,7 @@ REACT_APP_API_BASE_URL=http://localhost:5000
 
 ### Project Screenshots
 
-![](screenshots/dashboard.png)
+![project dashboard page](screenshots/dashboard.png)
+![project reservations form page](screenshots/reservationsForm.png)
+![project search page](screenshots/search.png)
+![project-tablesform page](screenshots/tablesForm.png)
