@@ -61,13 +61,17 @@ function Dashboard({today}) {
       <button className="btn btn-warning " onClick={nextDayHandler}> Next <span className="oi oi-arrow-thick-right"/></button>
       </div>
       <div className="card-group">
-        {reservations.map((reservation) => (
+        {!reservations ? <h4>Loading...</h4>
+        :
+        reservations.map((reservation) => (
           <Reservations key={reservation.reservation_id} reservation={reservation} />
         ))}
       </div>
       <h1 className="text-center mt-5">Tables</h1>
       <div className="card-group">
-        {tables.map((table, index) => (
+        {!tables ? <h4>Loading...</h4> 
+        :
+        tables.map((table, index) => (
           <Table key={table.table_id} table={table} />
         ))}
       </div>
