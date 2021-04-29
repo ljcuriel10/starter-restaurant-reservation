@@ -1,7 +1,7 @@
 # Thinkful-Final-Capstone: Restaurant Reservation System
 
 ## Live Site
-[Restaurant Reservation System](https://front-end-942mlohrp-ljcuriel10.vercel.app/dashboard "Restaurant Reservation System")  
+[Restaurant Reservation System](https://front-end-rho-ten.vercel.app "Restaurant Reservation System")  
 
 ## Application Summary
 A Restaurant Reservation App that is used to create and record reservations and table assignments.  
