@@ -2,7 +2,7 @@ import React from "react"
 import { useHistory } from "react-router-dom";
 import { clearTable } from "../utils/api"
 
-export default function Tables({ table, loadDashboard }) {
+export default function Tables({ table }) {
   const history = useHistory();
 
   const finishHandler = async(event) => {

@@ -68,7 +68,7 @@ function Dashboard({today}) {
       <h1 className="text-center mt-5">Tables</h1>
       <div className="card-group">
         {tables.map((table, index) => (
-          <Table key={index} table={table} loadDashboard={loadDashboard}  />
+          <Table key={table.table_id} table={table} />
         ))}
       </div>
     </main>
